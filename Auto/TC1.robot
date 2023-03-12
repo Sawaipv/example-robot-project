@@ -31,10 +31,10 @@ TC2
     Scroll Element Into View    //p[normalize-space()='8GB+128Gb']
     Click Element    id=buy-now-button
     Wait Until Element Is Visible    //input[@id='ap_email']    timeout=10s
-    Input Password    //input[@id='ap_email']    7507575629
+    Input Password    //input[@id='ap_email']   1234567890
     Click Element    id=continue
     Wait Until Element Is Visible    ap_password
-    Input Password    ap_password    amaze@456
+    Input Password    ap_password    amaze@123
     Click Element    id=signInSubmit
     Sleep    3
     Close Window
